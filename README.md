@@ -1,2 +1,2 @@
 # drhako
-My Web Site
+Geliştirme Aşamasında
