@@ -24,7 +24,7 @@ Gelen komutları kopyalayıp terminalinize yapıştırabilirsiniz.
 # 4. Sömürü (Exploit)
   Açıklardan sisteme sızma adımı.
 
-3 5. Raporlama
+# 5. Raporlama
   Bulguların ve çözümlerin sunumu.
 
   Tüm ihtiyaçlara göre komutlarınız hazır!
