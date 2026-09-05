@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Hako | Advanced Security Terminal</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="app-container">
+        <header class="hero-section glass-panel fade-in-down">
+            <div class="terminal-header">
+                <div class="window-controls">
+                    <span class="control close"></span>
+                    <span class="control minimize"></span>
+                    <span class="control maximize"></span>
+                </div>
+                <div class="window-title">bash - dr_hako@root</div>
+            </div>
+            <div class="hero-content">
+                <h1 id="typewriter"></h1>
+                <p class="subtitle">Hedef URL'yi girin, penetrasyon testi süreçleri için optimize edilmiş komut setlerini anında oluşturun.</p>
+            </div>
+        </header>
+
+        <section class="control-panel glass-panel fade-in-up" style="animation-delay: 0.2s;">
+            <div class="input-group">
+                <i class="fa-solid fa-crosshairs input-icon"></i>
+                <input type="text" id="targetInput" placeholder="https://target.com veya hedef-domain.com girin..." autocomplete="off">
+                <button id="generateBtn" class="cyber-btn">
+                    <i class="fa-solid fa-bolt"></i> ANALİZİ BAŞLAT
+                </button>
+            </div>
+            <div id="errorMsg" class="error-msg"></div>
+        </section>
+
+        <section id="resultsSection" class="results-grid hidden">
+        </section>
+
+        <section class="methodology-section glass-panel fade-in-up" style="animation-delay: 0.4s;">
+            <h2 class="section-title"><i class="fa-solid fa-network-wired"></i> Siber Güvenlik Süreç Haritası</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="icon-box"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="content">
+                        <h3>1. Pasif OSINT</h3>
+                        <p>Hedefle temas kurmadan bilgi toplama.</p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item">
+                    <div class="icon-box"><i class="fa-solid fa-satellite-dish"></i></div>
+                    <div class="content">
+                        <h3>2. Aktif Tarama</h3>
+                        <p>Port, servis ve teknoloji keşfi.</p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item">
+                    <div class="icon-box"><i class="fa-solid fa-bug"></i></div>
+                    <div class="content">
+                        <h3>3. Zafiyet Analizi</h3>
+                        <p>Güvenlik açıklarının tespiti.</p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item">
+                    <div class="icon-box"><i class="fa-solid fa-skull-crossbones"></i></div>
+                    <div class="content">
+                        <h3>4. Sömürü (Exploit)</h3>
+                        <p>Açıklardan sisteme sızma adımı.</p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item">
+                    <div class="icon-box"><i class="fa-solid fa-file-shield"></i></div>
+                    <div class="content">
+                        <h3>5. Raporlama</h3>
+                        <p>Bulguların ve çözümlerin sunumu.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Developed with <span style="color:var(--accent);">♥</span> by <strong>Dr. Hako</strong></p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script src="assets/data/toolsDB.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/core.js"></script>
+</body>
+</html>
