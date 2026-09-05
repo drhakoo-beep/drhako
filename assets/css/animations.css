@@ -1,0 +1,16 @@
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.fade-in-down { animation: fadeInDown 0.8s ease forwards; }
+.fade-in-up { animation: fadeInUp 0.8s ease forwards; opacity: 0; }
+
+.card-enter {
+    animation: fadeInUp 0.5s ease forwards;
+    opacity: 0;
+}
