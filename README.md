@@ -1,6 +1,6 @@
 ## Dr. Hako | Advanced Security Terminal
 
-# https://drhakoo-beep.github.io/drhako/
+# https://drhakoo-beep.github.io/DrHako-Advanced-Security-Terminal/
 
 Dr. Hako, siz girdi alanına örneğin example.com anında 20 adet terminalde deneyebileceğiniz komutları oluşturur.
 
