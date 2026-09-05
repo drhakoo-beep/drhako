@@ -31,10 +31,15 @@ Gelen komutları kopyalayıp terminalinize yapıştırabilirsiniz.
 
   Tüm ihtiyaçlara göre komutlarınız hazır!
 
+
+## Sık Karşılaşılan Hatalar ve Çözümleri
+
+Bazı mobil tarayıcılarda ikonlar kayabiliyor. Düzeltmek için Masaüstü Sitesi seçeneği ile siteyi kullanın.
+
 ## İletişim
 
 E-posta: gokaltinhakan68@gmail.com
 
-  ## Uyarı
+## Uyarı
 
-  Proje etik bir amaçla yapılmıştır. Kötüye kullanılmasından sorumlu değilim.
+Proje etik bir amaçla yapılmıştır. Kötüye kullanılmasından sorumlu değilim.
